@@ -100,4 +100,8 @@ class IndexControllerTest implements ControllerTest {
     void testMeIfUserJT() {
     }
 
+    @Test
+    void failingTest() {
+        assertEquals(1, 0);
+    }
 }
